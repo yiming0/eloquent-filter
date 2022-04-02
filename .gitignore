@@ -1,0 +1,7 @@
+# IDEA
+.idea
+
+# PHP
+vendor
+composer.phar
+*.cache

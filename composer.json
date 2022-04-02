@@ -1,0 +1,49 @@
+{
+  "name": "ymg/eloquent-filter",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Yiming",
+      "email": "1740959597@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.4|^8.0",
+    "laravel/framework": "8.*|9.*"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.5",
+    "orchestra/testbench": "6.*",
+    "phpunit/phpunit": "8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ymg\\EloquentFilter\\": "src/",
+      "Ymg\\EloquentFilter\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ymg\\EloquentFilter\\EloquentFilterServiceProvider"
+      ]
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "lock": false,
+    "platform-check": true,
+    "platform": {
+      "php": "7.4"
+    }
+  }
+}
